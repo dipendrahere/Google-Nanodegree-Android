@@ -17,7 +17,7 @@
         android:textColor="@android:color/white"
         android:id="@+id/popularMovies"
         android:background="@color/colorPrimaryDark"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="60dp"
         android:layout_marginBottom="7dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
@@ -76,4 +76,21 @@
         android:id="@+id/capstone"
         android:layout_below="@+id/goUbiquitous"
         android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My Nanodegree Apps!"
+        android:id="@+id/textView"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignLeft="@+id/popularMovies"
+        android:layout_alignStart="@+id/popularMovies"
+        android:layout_alignBottom="@+id/popularMovies"
+        android:layout_alignRight="@+id/popularMovies"
+        android:layout_alignEnd="@+id/popularMovies"
+        android:layout_alignParentTop="true" />
+
 </RelativeLayout>
