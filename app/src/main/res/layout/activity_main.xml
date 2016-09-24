@@ -81,7 +81,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="My Nanodegree Apps!"
+        android:text="Nanodegree Apps!"
         android:id="@+id/textView"
         android:layout_marginTop="20dp"
         android:textAlignment="center"
